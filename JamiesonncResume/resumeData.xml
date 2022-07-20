@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <!--Basic information such as name-->
+  <basicInfo>
+    <firstName>Neal</firstName>
+    <middleName>Christopher</middleName>
+    <lastName>Jamieson</lastName>
+  </basicInfo>
+  <!--contact information-->
+  <contactInfo>
+    <email>neal.c.jamieson@outlook.com</email>
+    <phone>214-548-1596</phone>
+    <address name="Home">
+      <street>730 E Starr Ave.</street>
+      <apartment>Apt. 412</apartment>
+      <city>Nacogdoches</city>
+      <state>Texas</state>
+      <zip>75961</zip>
+    </address>
+  </contactInfo>
+  <!--resume relevant websites-->
+  <websites>
+    <site name="LinkedIn">https://www.linkedin.com/in/nealcjamieson</site>
+    <site name="GitHub">https://github.com/TheDrakonLord</site>
+  </websites>
+  <!--professional skills-->
+  <skills>
+    <!--general skills-->
+    <general>
+      <skill>leadership</skill>
+      <skill>teamwork</skill>
+    </general>
+    <!--programming language skills-->
+    <progLang>
+      <skill>C#</skill>
+      <skill>Java</skill>
+      <skill>Python</skill>
+      <skill>C++</skill>
+    </progLang>
+    <!--Skills in tools commonly used in the industry-->
+    <tools>
+      <skill>Visual Studio</skill>
+      <skill>GitHub</skill>
+    </tools>
+  </skills>
+  <!--education history-->
+  <education>
+    <history name="Stephen F. Austin State University">
+      <degree>
+        <major>
+          <type>Bachelor of Science</type>
+          <field>Computer Science</field>
+        </major>
+        <minor>
+          <field>Business</field>
+        </minor>
+      </degree>
+      <startDate>08/01/2008</startDate>
+      <endDate>12/10/2022</endDate>
+    </history>
+  </education>
+  <!--work experiences-->
+  <workHistory>
+    <history name="United States Army">
+      <jobTitle>Financial Management Technician, Specialist</jobTitle>
+      <assignment name="Joint Intelligence Operations Center Europe Analytic Center" showName="true">
+        <location>RAF Molesworth, United Kingdom</location>
+        <responsibilities>
+          <responsibility name="Financial Management Technician">Analyzed and processed the pay, entitlements, and leave of all U.S. Army Soldiers assigned to RAF Molesworth</responsibility>
+          <responsibility name="Installation Voting Assistance Officer">Coordinated RAF Molesworth’s Voting Assistance Program Including Identifying Voting Assistance Officers, planning Voter Registration events, and training. This is a position normally held by a Lieutenant Colonel.  A waiver for the rank and grade requirement was granted on the basis that Neal Jamieson was an enthusiastic volunteer</responsibility>
+          <responsibility name="Human Resources Specialist">Assisted in processing human resource requests such as record updates and personnel transactions</responsibility>
+          <responsibility name="DEERS Verifying Official">Processed changes to Service Member records and issuing ID cards</responsibility>
+        </responsibilities>
+        <startDate>08/01/2015</startDate>
+        <endDate>01/09/2018</endDate>
+      </assignment>
+      <assignment name="Delta Detachment, 230th Financial Management Support Unit" showName="true">
+        <location>Fort Riley, Kansas</location>
+        <responsibilities>
+          <responsibility name="Military Pay Technician, Processing Section">Processed pay and entitlement transactions brought into the Finance Office</responsibility>
+          <responsibility name="PAC Certification Instructor">Responsible for training and certifying human resources personnel on pay and entitlements so that they may carry out their official duties</responsibility>
+          <responsibility name="Commercial Vendor Services Document Receiver">Received, validated, and audited all invoices received against their contracts for two Forward Operating Bases in Afghanistan prior to forwarding them for payment</responsibility>
+          <responsibility name="Military Pay Technician, Customer Service Section">Handled customer inquiries and processed the relevant transactions</responsibility>
+          <responsibility name="Travel Pay Technician">Received and audited travel vouchers prior to forwarding them for payment</responsibility>
+        </responsibilities>
+        <startDate>05/23/2011</startDate>
+        <endDate>08/01/2015</endDate>
+      </assignment>
+    </history>
+  </workHistory>
+  <!--volunteer experiences-->
+  <volunteerExperience>
+    <experience name="Distinguished Visitor Escort">
+      <location>Madingley American Cemetery</location>
+      <event>Veterans Day Ceremony</event>
+      <startDate>11/01/2015</startDate>
+      <endDate>11/01/2015</endDate>
+    </experience>
+    <experience name="Greeter">
+      <location>Kansas City Regional</location>
+      <event>FIRST Robotics Competition</event>
+      <startDate>03/01/2012</startDate>
+      <endDate>03/01/2012</endDate>
+    </experience>
+    <experience name="Painter">
+      <location>Love Inc.</location>
+      <event>Nacogdoches, Texas</event>
+      <startDate>09/01/2009</startDate>
+      <endDate>09/01/2009</endDate>
+    </experience>
+    <experience name="Teachers Aid">
+      <location>Chinese American Exposure Program</location>
+      <event>Second Baptist Church, Houston, Texas</event>
+      <startDate>07/01/2009</startDate>
+      <endDate>08/01/2009</endDate>
+    </experience>
+  </volunteerExperience>
+  <!--awards and decorations-->
+  <awards>
+    <award name="President's Honor Roll" type="education">
+      <date>05/01/2018</date>
+      <description></description>
+    </award>
+    <award name="Dean's List" type="education">
+      <date>05/01/2018</date>
+      <description></description>
+    </award>
+    <award name="Army Commendation Medal" type="work">
+      <date>12/01/2017</date>
+      <description>Awarded for exceptionally meritorious service while serving as a Financial Management Technician</description>
+    </award>
+    <award name="Army Good Conduct Medal" type="work">
+      <date>05/01/2017</date>
+      <description>Awarded for 3 years of exemplary behavior, efficiency, and fidelity in active federal military service</description>
+    </award>
+    <award name="Army Commendation Medal" type="work">
+      <date>01/01/2015</date>
+      <description>Awarded for exceptionally meritorious service while serving as a processing clerk</description>
+    </award>
+    <award name="Army Good Conduct Medal" type="work">
+      <date>05/01/2014</date>
+      <description>Awarded for 3 years of exemplary behavior, efficiency, and fidelity in active federal military service</description>
+    </award>
+    <award name="Army Commendation Medal" type="work">
+      <date>10/01/2013</date>
+      <description>Awarded for exceptionally meritorious service while assigned as a commercial vendor service clerk in support of operation enduring freedom 13-14</description>
+    </award>
+  </awards>
+  <!--current security clearances-->
+  <currentClearance>
+    <clearance name="Top-Secret Clearance">
+      <startDate>01/01/2016</startDate>
+      <endDate>01/01/2021</endDate>
+    </clearance>
+    <clearance name="Secret Clearance">
+      <startDate>01/01/2011</startDate>
+      <endDate>01/01/2021</endDate>
+    </clearance>
+  </currentClearance>
+</root>

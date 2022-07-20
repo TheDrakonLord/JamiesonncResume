@@ -1,0 +1,107 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Resume";
+}
+
+@section Styles {
+    <link href="~/index.cshtml.css" rel="stylesheet" type="text/css" />
+}
+
+    <body>
+        <div class="sidebar">
+            <div class="sidebarTop">
+                <div class="nameBlock">
+                    <p class="name">@Model.resumeData.Name</p>
+                    <p class="title">Software Engineer</p>
+                    <img class="profilePhoto" src="index.png" alt="Neal Jamieson" width="225" height="225"/>
+                </div>
+                <div class="contactInfo">
+                    <p>@Model.resumeData.Email</p>
+                    <p>@Model.resumeData.Phone</p>
+                    <p>@Model.resumeData.Address.City, @Model.resumeData.Address.State</p>
+                    <p><a href="@Model.resumeData.Sites["LinkedIn"]" target="_blank">LinkedIn</a></p>
+                    <p></p><a href="@Model.resumeData.Sites["GitHub"]" target="_blank">GitHub</a></p>
+
+                    
+                </div>
+                
+            </div>
+            <div class="education">
+                <h1>Education</h1>
+                @foreach (var x in Model.resumeData.EducationHistory)
+            {
+                <p>@x.Major.type</p>
+                <p>@x.Major.field</p>
+                <p>@x.Name</p>
+                <p>@x.StartDate.Year - @x.EndDate.Year</p>
+                <p>Nacogdoches, TX</p>
+            }
+        </div>
+        <div class="skills">
+            <h1>Skills</h1>
+            @foreach (var x in Model.resumeData.ProgLangSkills)
+            {
+                <p>@x</p>
+            }
+            @foreach (var x in Model.resumeData.ToolSkills)
+            {
+                <p>@x</p>
+            }
+            @foreach (var x in Model.resumeData.GeneralSkills)
+            {
+                <p>@x</p>
+            }
+        </div>
+        <div class="securityClearance">
+            <h1>Clearance</h1>
+            @foreach (var item in Model.resumeData.Clearances)
+            {
+                <h4>@item.Name</h4>
+                 <p>@item.StartDate.ToString("MMM") @item.StartDate.Year - @item.EndDate.ToString("MMM") @item.EndDate.Year</p>
+            }
+        </div>
+        <div class="volunteer">
+            <h1>Volunteer Experience</h1>
+            @foreach (var item in Model.resumeData.VolunteerHistory)
+            {
+                <h4>@item.Name @item.StrEvent</h4>
+                <p>@item.Location ---- @item.StartDate.ToString("MMM") @item.StartDate.Year - @item.EndDate.ToString("MMM") @item.EndDate.Year</p>
+            }
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="workExperience">
+            <h1>Work Experience</h1>
+            @foreach (var experience in Model.resumeData.WorkHistory)
+            {
+                <h2>@experience.Title</h2>
+                <h3>@experience.Name</h3>
+                @foreach (var assignment in experience.Assignments)
+                {
+                    <h4>@assignment.Name</h4>
+                    <p>@assignment.StartDate.ToString("MMM") @assignment.StartDate.Year - @assignment.EndDate.ToString("MMM") @assignment.EndDate.Year</p>
+                    <p>@assignment.Location</p>
+                    <ul>
+                        @foreach (var responsibility in assignment.Responsibilities)
+                        {
+                            <li>@responsibility.name: @responsibility.description</li>
+                        }
+                    </ul>
+                }
+            }
+        </div>
+        
+        <div class="awards">
+            <h1>Awards</h1>
+            @foreach (var item in Model.resumeData.Awards)
+            {
+                <h4>@item.Name</h4>
+                <p>@item.Date.ToString("MMM") @item.Date.Year</p>
+                <p>@item.Description</p>
+            }
+        </div>
+        
+    </div>
+</body>
