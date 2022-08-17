@@ -6,7 +6,8 @@ To demonstrate my own coding abilities in a tangible manner, I created a website
 This repsitory contains the source code used to create the resume.
 
 ## PDF output instructions:
-use a tool such as the Print Edit WE extension (use the web style) for firefox and delete the footer element. Then use Adobe PDF as the printer (or similar tool) with the following settings:
+Compile and run the software.
+Then, use a tool such as the Print Edit WE extension (use the web style) for firefox and delete the footer element. Then use Adobe PDF as the printer (or similar tool) with the following settings:
 - Color: Color
 - Pages: All
 - Paper Size: A4
