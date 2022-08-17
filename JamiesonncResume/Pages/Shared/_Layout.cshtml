@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Neal Jamieson's Resume</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" media="screen" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" media="print" href="~/css/sitePrint.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/JamiesonncResume.styles.css" asp-append-version="true" />
     @RenderSection("Styles", required: false)
 </head>
@@ -19,14 +20,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Neal Christopher Jamieson
-        </div>
-        <div class="container">
-            I made this website myself, you can see it's source code at th2 GitHub repository <a href="https://github.com/TheDrakonLord/JamiesonncResume">here</a>
-        </div>
-    </footer>
+    
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

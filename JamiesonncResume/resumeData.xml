@@ -14,9 +14,9 @@
     <address name="Home">
       <street>730 E Starr Ave.</street>
       <apartment>Apt. 412</apartment>
-      <city>Nacogdoches</city>
+      <city>Dallas</city>
       <state>Texas</state>
-      <zip>75961</zip>
+      <zip>75201</zip>
     </address>
   </contactInfo>
   <!--resume relevant websites-->
@@ -57,7 +57,7 @@
         </minor>
       </degree>
       <startDate>08/01/2008</startDate>
-      <endDate>12/10/2022</endDate>
+      <endDate>08/06/2022</endDate>
     </history>
   </education>
   <!--work experiences-->
@@ -82,7 +82,8 @@
           <responsibility name="PAC Certification Instructor">Responsible for training and certifying human resources personnel on pay and entitlements so that they may carry out their official duties</responsibility>
           <responsibility name="Commercial Vendor Services Document Receiver">Received, validated, and audited all invoices received against their contracts for two Forward Operating Bases in Afghanistan prior to forwarding them for payment</responsibility>
           <responsibility name="Military Pay Technician, Customer Service Section">Handled customer inquiries and processed the relevant transactions</responsibility>
-          <responsibility name="Travel Pay Technician">Received and audited travel vouchers prior to forwarding them for payment</responsibility>
+          <responsibility name="Travel Pay Technician">Received and audited travel vouchers prior to forwarding them for payment. Additionally, create a Travel Pay Calculator that is now used throughout the United States Army.</responsibility>
+          <responsibility name="Soldier of the Year">Nominated by his commander to participate in the Fort Riley 1st Sustainment Brigade soldier of the year competition in 2015</responsibility>
         </responsibilities>
         <startDate>05/23/2011</startDate>
         <endDate>08/01/2015</endDate>
@@ -128,15 +129,23 @@
     </award>
     <award name="Army Commendation Medal" type="work">
       <date>12/01/2017</date>
-      <description>Awarded for exceptionally meritorious service while serving as a Financial Management Technician</description>
+      <description>Awarded for exceptionally meritorious service while serving as a Financial Management Technician at RAF Molesworth</description>
     </award>
     <award name="Army Good Conduct Medal" type="work">
       <date>05/01/2017</date>
       <description>Awarded for 3 years of exemplary behavior, efficiency, and fidelity in active federal military service</description>
     </award>
+    <award name="Certificate of Achievement" type="work">
+      <date>08/01/2016</date>
+      <description>In recognition of his dedicated countless hours developing the new JAC Awards Guide to improve awards submission, tracking, and quality control of join awards. His expertise and knowledge has assisted the Army Element Personnel Office techniques to asist in creating a well written and designed manual that will be utilized throughout the JAC and assigned JRISE's to include two detachements of over 500 personnel within the command</description>
+    </award>
+    <award name="Certificate of Achievment" type="work">
+      <date>07/01/2016</date>
+      <description>In recognition of his dedicated countless hours developing and implementing an access tracker that flawlessly tracks 100% of the Unit's DA Form 31's submitted by JAC, AFRICOM, NIFC, and DIA. He has reconciled unit leave forms from 76% to 100% accountability, create a Finance SOP for ease of continuity and generated new in and out processing checklists that allowed the Army Element Personnel section a more efficient process for Service Members and their Families to transition to and from assignment at the JAC.</description>
+    </award>
     <award name="Army Commendation Medal" type="work">
       <date>01/01/2015</date>
-      <description>Awarded for exceptionally meritorious service while serving as a processing clerk</description>
+      <description>Awarded for exceptionally meritorious service while serving as a processing clerk at Fort Riley, Kansas</description>
     </award>
     <award name="Army Good Conduct Medal" type="work">
       <date>05/01/2014</date>
@@ -146,16 +155,20 @@
       <date>10/01/2013</date>
       <description>Awarded for exceptionally meritorious service while assigned as a commercial vendor service clerk in support of operation enduring freedom 13-14</description>
     </award>
+    <award name="Certificate of Achievement" type="work">
+      <date>12/01/2012</date>
+      <description>For meritorious achievement during the 230th Mission Rehearsal Exercise. He demonstrated superior technical knowledge and proficiency resulted in him being personally recognized by the United States Army Financial Management Command's Operational Support Team. In addition, he was instrumental in the operational support team recognizing Delta Detachment as the model for all detachments that have come through the MRE since its existence.</description>
+    </award>
   </awards>
   <!--current security clearances-->
   <currentClearance>
     <clearance name="Top-Secret Clearance">
-      <startDate>01/01/2016</startDate>
-      <endDate>01/01/2021</endDate>
+      <startDate>01/08/2016</startDate>
+      <endDate>01/08/2021</endDate>
     </clearance>
     <clearance name="Secret Clearance">
-      <startDate>01/01/2011</startDate>
-      <endDate>01/01/2021</endDate>
+      <startDate>02/03/2012</startDate>
+      <endDate>02/03/2022</endDate>
     </clearance>
   </currentClearance>
 </root>

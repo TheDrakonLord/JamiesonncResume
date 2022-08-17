@@ -1,4 +1,4 @@
-@media screen {
+﻿@media print {
     html {
         font-size: 14px;
     }
@@ -19,6 +19,6 @@
     }
 
     footer {
-        background-color: white;
+        display: none
     }
 }

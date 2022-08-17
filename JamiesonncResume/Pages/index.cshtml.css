@@ -1,86 +1,102 @@
-﻿html {
-    height: 100%; /* make sure it is at least as tall as the viewport */
-    position: relative;
-}
+﻿@media screen {
+    html {
+        height: 100%; /* make sure it is at least as tall as the viewport */
+        position: relative;
+    }
 
-body {
+    body {
+    }
 
-}
+    .sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-style: italic;
+        background-color: lightgray;
+        width: 30%;
+    }
 
-.sidebar {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-style: italic;
-    background-color: lightgray;
-    width: 30%;
+    a {
+        color: lightgray;
+    }
 
-}
+    .name {
+        font-style: normal;
+        font-size: xx-large;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
 
-a {
-    color: lightgray;
-}
+    .title {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        font-style: italic;
+        font-size: x-large;
+    }
 
-.name {
-    font-style: normal;
-    font-size: xx-large;
-    margin: 0;
-    padding: 0;
-    color: white;
-}
+    .content {
+        float: right;
+        width: 70%;
+        padding-bottom: 120px;
+    }
 
-.title {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 20px;
-    font-style: italic;
-    font-size: x-large;
-    
-}
+    .nameBlock {
+        margin: 0;
+        padding-left: 60px;
+    }
 
-.content {
-    float: right;
-    width: 70%;
-    padding-bottom:120px;
-}
+    .contactInfo {
+        padding-bottom: 20px;
+        margin: 0;
+        padding-left: 60px;
+    }
 
-.nameBlock {
-    margin: 0;
-    padding-left: 60px;
-}
+    .sidebarTop {
+        background-color: steelblue;
+        color: lightgray;
+        overflow: hidden;
+        position: relative;
+    }
 
-.contactInfo {
-    padding-bottom: 20px;
-    margin: 0;
-    padding-left: 60px;
-}
+    .education {
+        padding-left: 60px;
+        line-height: 8px;
+    }
 
-.sidebarTop {
-    background-color: mediumpurple;
-    color: lightgray;
-    overflow: hidden;
-}
+    .skills {
+        padding-left: 60px;
+        line-height: 2px;
+    }
 
-.education {
-    padding-left: 60px;
-    line-height: 8px;
-}
+    .securityClearance {
+        padding-left: 60px;
+    }
 
-.skills {
-    padding-left: 60px;
-    line-height: 2px;
-}
+    .volunteer {
+        padding-left: 60px;
+    }
 
-.securityClearance {
-    padding-left: 60px;
-}
+    .profilePhoto {
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20%;
+        height: auto;
+        marign: 1px;
+    }
 
-.volunteer {
-    padding-left: 60px;
-}
+    .profilePhotoDiv {
+    }
 
-.profilePhoto{
-    float: right;
+    .exportFooter {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px
+    }
 }
